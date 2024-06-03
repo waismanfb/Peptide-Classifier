@@ -6,6 +6,12 @@ This project involves training and evaluating multiple machine learning models o
 
 - `main.ipynb`: This is the main script that orchestrates the loading of data, preprocessing, training models, evaluating performance, and displaying results.
 
+- `data.csv`: This is the dataset used in the project. It contains features and labels for training and testing the machine learning models.
+
+## Data
+
+The data used in this project is stored in `data.csv`. This file contains several features that are used to predict the target variable. The data has been preprocessed and split into training and testing sets within the `main.ipynb` script.
+
 ## Functions
 
 - `build_model_pipeline(model)`: Constructs a machine learning pipeline that includes preprocessing steps and the specified model.
